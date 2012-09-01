@@ -1,0 +1,1 @@
+﻿define(["./views/AppView"], function(AppView){	/*	 * Module	 */	var Module = function(sandbox){		var view = new AppView({el:sandbox.el, sandbox:sandbox});		return {			mainView:view		};			};	return Module;});
