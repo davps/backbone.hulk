@@ -5,7 +5,7 @@ It is hard to create large scale Javascript applications? Yeah but... We have a 
 
 That's it! Backbone Hulk is a opinionanted architecture boilerplate developed to face common challenges that I've found in a large scale Javascript app on which I'm working right now. 
 
- Backbone Hulk uses Backbone.js, Undescore.js and Require.js. **Selectively**, I take concepts proposed by Nicholas Zakas in [Scalable Application Architecture](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture) and the [Aura] team (https://github.com/addyosmani/aura) (I discarded some of their tips in favor to increase the developers productivity and the pragmatism).
+ Backbone Hulk uses Backbone.js, Undescore.js and Require.js. **Selectively**, I take concepts proposed by Nicholas Zakas in [Scalable Application Architecture](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture) and the [Aura team](https://github.com/addyosmani/aura) (I discarded some of their tips in favor to increase the developers productivity and the pragmatism).
 
 
 ###Backbone Hulk Architecture: 
