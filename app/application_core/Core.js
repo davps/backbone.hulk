@@ -1,4 +1,4 @@
-define(["underscore", "require"], function(_, require){
+ï»¿define(["underscore", "require"], function(_, require){
 	/*
 	 * Core
 	 */
@@ -55,7 +55,7 @@ define(["underscore", "require"], function(_, require){
 				_currentInstance = instanceId;
 				var module = moduleData[moduleId];
 				if(typeof module == "undefined"){
-					throw new Error("No existe el módulo" + moduleId);
+					throw new Error("No existe el mÃ³dulo" + moduleId);
 				}
 				var sandbox = Object.create(module.Sandbox(this, moduleId, instanceId, element));
 				module.instances[instanceId] = sandbox;
@@ -69,11 +69,11 @@ define(["underscore", "require"], function(_, require){
 				}
 				var module = moduleData[moduleId];
 				if(typeof module == "undefined"){
-					throw new Error("No existe el módulo" + moduleId);
+					throw new Error("No existe el mÃ³dulo" + moduleId);
 				}
 				var instance = module.instances[instanceId];
 				if(typeof instance == "undefined"){
-					throw new Error("No existe el la instancia ", instance, " en el módulo ",  moduleId);
+					throw new Error("No existe el la instancia ", instance, " en el mÃ³dulo ",  moduleId);
 				}
 				if(instance) instance.init();
 				return this;

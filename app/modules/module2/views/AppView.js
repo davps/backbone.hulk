@@ -1,4 +1,4 @@
-define(["../Sandbox", "underscore", "backbone", "jquery"], 
+﻿define(["../Sandbox", "underscore", "backbone", "jquery"], 
 function(sandbox, _, Backbone, $){
 	var AppView = Backbone.View.extend({
 		
